@@ -1,0 +1,49 @@
+// Define Script libarary
+// Format:Func No|Name|Return value Type|Comments|Function Type|Arg1&Arg2&...&Argn
+//  Format Paramter String: No$Comments$Type
+// 1. 数学函数
+1|labs|1|计算整数的绝对值|数学函数|1$integer$1
+2|fabs|5|计算浮点数的绝对值|数学函数|1$floating-point$5
+3|asin|5|计算arcsine|数学函数|1$arcsine$5
+4|acos|5|计算arccosine|数学函数|1$arccosine$5
+5|atan|5|计算arctangent of x|数学函数|1$x $5
+6|atan2|5|计算arctangent of y/x|数学函数|1$y$5&2$x$5
+7|sin|5|计算sines |数学函数|1$angle$5
+8|cos|5|计算cosines|数学函数|1$angle$5
+9|tan|5|计算tangent |数学函数|1$angle$5
+10|sinh|5|计算hyperbolic sines|数学函数|1$angle$5
+11|cosh|5|计算hyperbolic cosines|数学函数|1$angle$5
+12|tanh|5|计算hyperbolic tangent|数学函数|1$angle$5
+13|floor|5|计算floor of a value|数学函数|1$value$5
+14|fmod|5|计算x/y的余数|数学函数|1$x$5&2$y$5
+15|pow|5|计算x的y次幂|数学函数|1$x$5&2$y$5
+16|sqrt|5|计算x的平方根|数学函数|1$x$5
+17|exp|5|计算x的自然指数|数学函数|1$x$5
+18|log|5|计算x的自然对数|数学函数|1$x$5
+19|log10|5|计算x的以10为低的对数|数学函数|1$x$5
+20|atof|5|将字符串转换为浮点数|数学函数|1$string$6
+21|atol|1|将字符串串换为整数|数学函数|1$string$6
+22|Rand|5|声称0到1之间的伪随机数)|数学函数|
+23|NOR|2|计算X1^X2|数学函数|1$X1(Unsigned Integer)$2&2$X2(Unsigned Integer)$2
+24|XOR|0|计算X1 XOR X2|数学函数|1$X1(Discrete Value)$0&2$X2(Discrete Value)$0
+25|HEX|1|将16进制串转换为10进制|数学函数|1$HEX Value String$6
+// 2. Output Functions
+26|Output|0|向指定的点发送DO/AO命令|系统函数|1$Point Name$6&2$Output Value$5&3$TimeOut$2
+27|WaitRSChange|0|等待制定的DI/AI改变|系统函数|1$Point Name$6&2$Target value/Old value$1&3$TimeOut$2
+28|Sleep|0|将计算线程挂起给定的时间(ms)|系统函数|1$TimeOut$2
+29|IsTagOnLine|0|检查指定的点是否在线|系统函数|1$Point Reference Name$6
+// 3. 时间函数
+30|DateTimeCmp|1|比较两个日期时间串|时间函数|1$时间1$6&2$时间2$6&3$纯日期$0
+31|NextDateTime|6|将一个日期加上时间间隔(单位秒或天),返回下一个日期时间|时间函数|1$启示日期时间$6&2$时间段(秒/天)$1&3$纯日期$0
+32|DateTimeSpan|1|计算两个日期时间间的间隔|时间函数|1$时间1$6&2$时间2$6&3$纯日期$0
+31|CurrentDateTime|6|返回当前的日期时间|时间函数|1$纯日期$0
+
+
+
+
+
+
+
+
+
+

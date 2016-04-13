@@ -1,0 +1,3 @@
+DAP Firmware Version 4.02.0 Build 09.12.01
+For DCM4208/APC4216 hardware Platform with Mona-vista Linux 2.6.0
+Copyright(c) 2003-2010 ASAT Technology Inc.
